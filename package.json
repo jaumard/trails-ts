@@ -1,0 +1,56 @@
+{
+  "name": "trails-ts",
+  "version": "0.0.0",
+  "description": "A new Trails.js Application",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "jaumard",
+    "email": "jimmy.aumard@gmail.com",
+    "url": "https://github.com/jaumard"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "express": "^4.14.0",
+    "trailpack-core": "^1.0.1",
+    "trailpack-express": "^1.0.14",
+    "trailpack-repl": "^1.1.1",
+    "trailpack-router": "^1.0.8",
+    "trails": "^1.1.0",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.2",
+    "trails-service": "^1.0.0-beta-2",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "eslint": "^3.6.1",
+    "eslint-config-trails": "latest",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^3.0.1",
+    "merge-stream": "^1.0.0",
+    "mocha": "^3.1.0",
+    "supertest": "^1.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  },
+  "scripts": {
+    "postinstall": "typings install",
+    "test": "eslint . && mocha",
+    "start": "gulp && node dist/server.js"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "https://github.com/jaumard/trails-ts",
+  "license": "MIT"
+}
