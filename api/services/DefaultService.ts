@@ -1,6 +1,6 @@
 'use strict'
 
-import * as Service from 'trails-service'
+import * as Service from "trails/service";
 
 /**
  * @module DefaultService

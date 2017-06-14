@@ -1,7 +1,7 @@
 'use strict'
 
-import {Request, Response} from 'express'
-import * as Controller from 'trails-controller'
+import {Request, Response} from "express";
+import * as Controller from "trails/controller";
 
 /**
  * @module DefaultController
